@@ -26,6 +26,7 @@ def check_id(id_number):
             if gender_digit == 3 or gender_digit == 4:
                 print("잘못된 입력입니다.")
                 print("올바른 번호를 넣어주세요")
+                return
             else :
                 birth_year = 1900 + birth_year_prefix
         else:
